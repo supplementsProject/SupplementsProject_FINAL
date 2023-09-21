@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+
+<div class="main">
+  <div class="div">
+    <!-- 베스트셀러 멘트 -->
+    <div class="bestseller">
+      <p class="p">
+        <span class="text-wrapper-15">방문 고객님들이 많이 찾는 품목들을 비트너가 알려드릴게요 </span>
+        <span class="text-wrapper-9">&nbsp;</span>
+        <!--                <p th:text="${list}"></p>-->
+      </p>
+      <img class="image-4" src="/img/comment.png" />
+    </div>
+    <!-- 면역 -->
+    <div class="default-icon-eyes">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="text-wrapper">면역</div>
+          <img class="free-icon-eyes" src="/img/guard_icon.png" />
+        </div>
+      </div>
+    </div>
+    <!-- 뼈 -->
+    <div class="default-icon-bone">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group-2">
+          <div class="text-wrapper-2">뼈</div>
+          <img class="free-icon-broken" src="/img/bone_icon.png" />
+        </div>
+      </div>
+    </div>
+    <!-- 소화 -->
+    <div class="default-icon-blood">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group-3">
+          <div class="text-wrapper-3">소화</div>
+          <img class="free-icon-vessel" src="/img/blood_icon.png" />
+        </div>
+      </div>
+    </div>
+    <!-- 항산화 -->
+    <div class="default-icon-anti">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group-4">
+          <div class="text-wrapper-4">항산화</div>
+          <img class="free-icon-vitamin-c" src="/img/anti_con.png" />
+        </div>
+      </div>
+    </div>
+    <!-- 챗봇이미지 -->
+    <div class="chatbot-default" onclick="location.href='https://talk.naver.com/W438A5'">
+    </div>
+
+    <!-- 네비바 -->
+    <div class="view">
+      <div class="overlap">
+        <div class="search-bar">
+          <div class="line"></div>
+          <div class="search-con">
+            <div class="overlap-group-5"><span th:each="list : ${list}">
+                        <img class="magnifying-glass" src="/img/magnifying-glass.png">
+                            </span>
+            </div>
+          </div>
+          <div class="text-wrapper-5">Search ↙</div>
+        </div>
+        <img class="loginJoin" src="/img/login.png" />
+        <img class="cart" src="/img/cart_icon.png" />
+        <div class="ALL"><div class="text-wrapper-6">ALL</div></div>
+        <div class="div-wrapper"><div class="text-wrapper-6">건강식품</div></div>
+        <div class="view-2"><div class="text-wrapper-7">뷰티</div></div>
+        <div class="div-wrapper-2"><div class="text-wrapper-7">출산/육아</div></div>
+        <div class="div-wrapper-3"><div class="text-wrapper-8">헬스/다이어트</div></div>
+        <img class="image-2" src="/img/logo.png" />
+      </div>
+    </div>
+    <!-- 배너 -->
+    <div class="overlap-wrapper">
+      <img class="bannerImage" src="/img/brainRebute.png" />
+    </div>
+    <!-- 약 쇼핑 정보칸 -->
+    <div class="view-3">
+      <div class="overlap-3">
+        <div class="griditem_1" th:each="list : ${list}" >
+            <!--                    <img id="imgId" class="buying_1" th:src="${list.image}" th:if="${list.image != null}" />-->
+            <a th:href="@{/detail}"> <img id="imgId" class="buying_1" th:src="${list.image}" th:if="${list.image != null}" /></a>
+            <!--                <img class="buying_1" src="https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00931/v/164.jpg">-->
+          <div>
+            <p class="sell_price" th:text="${list.price}"></p>
+          </div>
+          <div>
+            <p class="sell_comment" th:text="${list.name}"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+</div>
+</div>
+</body>
+</html>

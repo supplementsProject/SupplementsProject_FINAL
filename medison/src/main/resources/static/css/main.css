@@ -1,0 +1,591 @@
+@font-face {
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+.main {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1570px;
+    position: relative;
+  }
+
+  .main .default-icon-eyes {
+    left: 42px;
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    top: 629px;
+  }
+
+  .main .overlap-group-wrapper {
+    height: 46px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+  }
+
+  .main .overlap-group {
+    position: relative;
+    width: 70px;
+    height: 46px;
+    top: -1px;
+    left: 14px;
+  }
+  /* 면역 */
+  .main .text-wrapper {
+    left: 20px;
+    position: absolute;
+    width: 52px;
+    top: 13px;
+    font-family: 'YdestreetB', Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .free-icon-eyes {
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    top: 12px;
+    left: 0;
+  }
+
+  .main .default-icon-bone {
+    left: 179px;
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    top: 629px;
+  }
+
+  .main .overlap-group-2 {
+    width: 65px;
+    height: 46px;
+    left: 17px;
+    position: relative;
+    top: -1px;
+  }
+  /* 뼈 */
+  .main .text-wrapper-2 {
+    width: 52px;
+    top: 13px;
+    left: 16px;
+    font-family: 'YdestreetB', Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .free-icon-broken {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    top: 12px;
+    left: 0;
+
+  }
+
+  .main .default-icon-blood {
+    left: 316px;
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    top: 629px;
+  }
+
+  .main .overlap-group-3 {
+    width: 72px;
+    height: 46px;
+    left: 16px;
+    position: relative;
+    top: -1px;
+  }
+  /* 소화 */
+  .main .text-wrapper-3 {
+    left: 20px;
+    position: absolute;
+    width: 52px;
+    top: 13px;
+    font-family: 'YdestreetB', Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .free-icon-vessel {
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    top: 12px;
+    left: 0;
+
+  }
+
+  .main .default-icon-anti {
+    left: 453px;
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    top: 629px;
+  }
+
+  .main .overlap-group-4 {
+    width: 73px;
+    height: 46px;
+    left: 16px;
+    position: relative;
+    top: -1px;
+  }
+  /* 항산화 */
+  .main .text-wrapper-4 {
+    width: 52px;
+    top: 13px;
+    left: 21px;
+    font-family: 'YdestreetB', Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .free-icon-vitamin-c {
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    top: 11px;
+    left: -4px;
+
+  }
+
+  .main .chatbot-default {
+    position: absolute;
+    width: 123px;
+    height: 178px;
+    top: 1210px;
+    left: 1243px;
+    background-image: url(/img/chatbot.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .main .view {
+    position: absolute;
+    width: 1442px;
+    height: 91px;
+    top: 0;
+    left: 0;
+  }
+
+  .main .overlap {
+    position: relative;
+    width: 100%;
+    height: 91px;
+    background-color: #00f5c9;
+  }
+
+  .main .search-bar {
+    position: absolute;
+    width: 313px;
+    height: 38px;
+    top: 27px;
+    left: 808px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 0.5px solid;
+    border-color: #00f5c9;
+    box-shadow: 0px 0px 5px #00000033;
+  }
+
+  .main .line {
+    border-right: 0.7px solid;
+    border-color:#009D81;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    top: 6px;
+    left: 264px;
+  }
+
+  .main .search-con {
+    position: absolute;
+    width: 18px;
+    height: 22px;
+    top: 8px;
+    left: 278px;
+    transform: rotate(10.52deg);
+  }
+
+  .main .overlap-group-5 {
+    width: 20px;
+    height: 23px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+  }
+
+  .main .ellipse {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 2px;
+    border-radius: 8.98px/8.94px;
+    border: 1px solid;
+    border-color: #007a64;
+  }
+
+  .main .magnifying-glass {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: -3px;
+    transform: rotate(-10.52deg);
+    object-fit: cover;
+  }
+  /* search bar */
+  .main .text-wrapper-5 {
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    top: 9px;
+    left: 16px;
+    font-family: 'Noto Sans KR', Helvetica;
+    font-weight: 400;
+    color: #8b8b8b;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  /* 로그인 / 회원가입 */
+  .main .loginJoin {
+    position: absolute;
+    width: 121px;
+    top: 30px;
+    left: 1167px;
+  }
+
+  .main .cart {
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 28px;
+    left: 1328px;
+
+
+  }
+
+  .main .ALL {
+    position: absolute;
+    font-family: 'Pretendard-Regular', Helvetica;
+    width: 86px;
+    height: 34px;
+    top: 30px;
+    left: 263px;
+  }
+
+  .main .text-wrapper-6 {
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    top: 7px;
+    left: 0;
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-weight: 500;
+    color: #004c4b;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .div-wrapper {
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    top: 29px;
+    left: 355px;
+  }
+
+  .main .view-2 {
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    top: 29px;
+    left: 550px;
+  }
+
+  .main .text-wrapper-7 {
+    width: 86px;
+    height: 34px;
+    top: 7px;
+    left: 0;
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-weight: 500;
+    color: #004c4b;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .div-wrapper-2 {
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    top: 29px;
+    left: 455px;
+  }
+
+  .main .div-wrapper-3 {
+    position: absolute;
+    width: 112px;
+    height: 34px;
+    top: 29px;
+    left: 643px;
+  }
+
+  .main .text-wrapper-8 {
+    width: 112px;
+    height: 34px;
+    top: 7px;
+    left: 0;
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-weight: 500;
+    color: #004c4b;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .image-2 {
+    position: absolute;
+    width: 226px;
+    height: 68px;
+    top: 9px;
+    left: 31px;
+  }
+  /* 배너영역 */
+  .main .overlap-wrapper {
+    position: absolute;
+    top: 91px;
+
+  }
+  /* 배너 이미지영역 */
+  .main .bannerImage {
+    position: relative;
+    width: 1440px;
+    height: 442px;
+
+  }
+
+  .main .image-3 {
+    position: absolute;
+    width: 1440px;
+    height: 428px;
+    top: 6px;
+    left: 0;
+  }
+
+  .main .element {
+    position: absolute;
+    width: 293px;
+    height: 343px;
+    top: 53px;
+    left: 1147px;
+  }
+
+  .main .element-2 {
+    position: absolute;
+    width: 309px;
+    height: 343px;
+    top: 50px;
+    left: 830px;
+    object-fit: cover;
+  }
+
+  .main .element-3 {
+    position: absolute;
+    width: 441px;
+    height: 442px;
+    top: 0;
+    left: 931px;
+    object-fit: cover;
+  }
+
+  .main .free-icon-brain {
+    position: absolute;
+    width: 303px;
+    height: 265px;
+    top: 169px;
+    left: 0;
+    background-blend-mode: hard-light;
+  }
+
+  .main .free-icon-creative {
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    top: 68px;
+    left: 464px;
+    background-blend-mode: darken;
+    object-fit: cover;
+  }
+
+  .main .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    width: 573px;
+    height: 81px;
+    top: 242px;
+    left: 278px;
+  }
+
+
+  .main .view-3 {
+    position: absolute;
+    width: 1347px;
+    height: 447px;
+    top: 703px;
+    left: 43px;
+
+  }
+  /* 베스트셀러 */
+  .main .bestseller{
+    position: r;
+  }
+  /* 약 세부 박스 */
+  .main .overlap-3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    width: 1353px;
+    top: -3px;
+    left: -3px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(54.19, 218.85, 255), rgb(0, 255, 209.1)) 1;
+     }
+  .main .griditem_1{
+        position: initial;
+        margin: 15px;
+        height: 400px;
+        top: 28px;
+        left: 268px;
+      }
+  .main .griditem{
+    position: initial;
+    margin: 15px 0 ;
+    border-left: 1px solid;
+    border-color: #CBCBCB;
+    height: 400px;
+    top: 28px;
+    left: 268px;
+  }
+  .main .buying_1{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  .main .buying{
+    margin: 20px 35px;
+    height: 200px;
+    width: 200px;
+  }
+  .sell_comment{
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-size: medium;
+    text-align: center;
+  }
+  .sell_price{
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: 600;
+    color: #bd3636;
+}
+  /*  */
+  .main .p {
+    height: 16px;
+    top: 585px;
+    left: 47.5px;
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-weight: 300;
+    color: #404040;
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .main .text-wrapper-15 {
+    font-family: 'Pretendard-Regular', Helvetica;
+    font-weight: 300;
+    color: #404040;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+
+  .main .image-4 {
+    position: absolute;
+    width: 331px;
+    height: 28px;
+    top: 560px;
+    left: 48px;
+  }
+  /* 푸터 */
+  .main .footer {
+    position: absolute;
+    width: inherit;
+    height: 127px;
+    top: 1443px;
+    left: 1px;
+    background-color: #00f5c9;
+  }
