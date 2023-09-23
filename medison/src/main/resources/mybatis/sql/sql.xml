@@ -7,5 +7,5 @@
         SELECT
             *
         FROM supplements WHERE info LIKE '%면역%' ORDER BY rating_count desc LIMIT 0,5;
-    </select>ㄴ
+    </select>
 </mapper>
