@@ -4,6 +4,8 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="supplement">
     <select id="select" resultType="com.chatbot.medison.dto.Supplement">
-        select * from supplements where info like '%면역%' limit 0,5
+        SELECT
+            *
+        FROM supplements WHERE info LIKE '%면역%' ORDER BY rating_count desc LIMIT 0,5;
     </select>
 </mapper>
