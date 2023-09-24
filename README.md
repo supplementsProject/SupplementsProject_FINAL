@@ -8,4 +8,4 @@
 
      팀원: 김도희(Backend & ChatBot 개발),  
 
-          송민정(Backend & Web Crawling) 
+          송민정(Backend & Web Crawling) .
